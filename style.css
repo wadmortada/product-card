@@ -1,0 +1,68 @@
+:root {
+    --radius-primary: 25px;
+    --font-size-primary: 14px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: var(--font-size-primary);
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    justify-items: center;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 460px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);  
+    border-radius: 7px; 
+    overflow: hidden;
+
+}
+
+.head-pro {
+    text-transform: uppercase;
+    word-spacing: 10px;
+    color: hsl(212, 21%, 14%);
+}
+
+.textFrame {
+    /* background-color: white;    */
+    padding: 15px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.img-pro {
+    width: 240px;
+}
+
+#priceAll {
+    display: flex;
+}
+
+#price {
+    font-weight: bolder;
+    color: green;
+    font-size: x-large;
+}
+
+#disprice {
+    text-decoration: line-through ;
+}
+
+button {
+    background-color: blue;
+    border-radius: 7px;
+    padding: 7px;
+}
